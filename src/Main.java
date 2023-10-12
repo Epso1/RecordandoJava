@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
-      long[] numeros = new long[100];
+        long[] numeros = new long[100];
         numeros = Utilidades.rellenarConAleatorios(numeros);
         long startTime = System.nanoTime();
         for (Long l: numeros) {
