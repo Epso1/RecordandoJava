@@ -14,6 +14,5 @@ public class Main {
         System.out.println("Milisegundos: " + durationMilis);
         double durationSeconds = (double) duration / 1_000_000_000;
         System.out.println("Segundos: " + durationSeconds);
-
     }
 }
